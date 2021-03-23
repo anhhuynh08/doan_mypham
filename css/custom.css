@@ -1,0 +1,936 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500i,700,700i,900i&display=swap&subset=vietnamese');
+
+h1{font-size:36px}
+h2{font-size:32px}
+h3{font-size:28px}
+h4{font-size:24px}
+h5{font-size:20px}
+h6{font-size:16px}
+.product-item:hover{
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: antiquewhite;
+}
+#tensptheodm {
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 2;
+    height: 50px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+#body{
+    margin-bottom: 50px;
+}
+#pagination{
+    text-align: center;
+    float: top;
+}
+.share-bar  a {
+
+    width: 39px;
+}
+.col-md-6{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.company-img a img {
+
+    border: 1px solid #4543;
+    margin-top: 15px;
+}
+.logo img {
+
+    max-width: 170px;
+}
+.emply-btns > a {
+
+    font-family: Arial;
+
+}
+.showsticky {
+
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.blog-details p{
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 3;
+    height: 75px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.panel-button{
+    float: right;
+    background:#fb236a;
+    text-align: center;
+    line-height: 15px;
+    font-size: 13px;
+    margin-right: 8px;
+    border-radius: 15px
+}
+.apply-thisjob{
+    font-family: Arial;
+    border: 2px solid #03ca81;
+}
+.apply-thisjob .addfiles{
+    float: left;
+    background: #8b91dd;
+    border-radius: 15px;
+}
+.SaveInFo{
+
+    background: #fb236a;
+    text-align: center;
+    line-height: 15px;
+    font-size: 13px;
+    margin-right: auto;
+    border-radius: 15px
+}
+.SaveInFo :hover{
+    color: grey;
+}
+.edu-history-insert {
+    float: left;
+    width: 100%;
+    display: table;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 30px;
+
+}
+.edu-history-insert > i {
+    display: table-cell;
+    vertical-align: top;
+    width: 70px;
+    font-size: 50px;
+    color: #fb236a;
+    line-height: 60px;
+}
+#TenTruong{
+    border: none;
+    border-bottom: 2px solid  #fb236a;
+
+    color: black;
+}
+#ThoiGianHoc{
+    border: none;
+    border-bottom: 2px solid  #fb236a;
+
+    color: black;
+}
+#MoTa{
+    border: none;
+    border-bottom: 2px solid  #fb236a;
+
+    color: black;
+}
+#ChuyenNganh {
+    border: none;
+    border-bottom: 2px solid #fb236a;
+
+    color: black;
+}
+.body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.account-btns > li a {
+    font-family: Arial;
+    font-size: 17px;
+    color: #ffffff;
+    float: left;
+    line-height: 22px;
+}
+.menu-sec nav > ul > li > a {
+    font-family: Arial;
+    font-size: 17px;
+}
+.post-job-btn {
+
+    font-family: Arial;
+    font-size: 17px;
+}
+.select-user > span{
+    font-size: 15px;
+    font-family: Arial;
+}
+.account-popup > form .cfield input{
+
+    font-family: Arial;
+}
+.quick-form-job form > span{
+    font-family: Arial;
+}
+.quick-form-job form input, .quick-form-job form textarea{
+    font-family: Arial;
+    font-size: 13px;
+}
+.tree_widget-sec > ul > li > a{
+    font-family: Arial;
+}
+.btns-profiles-sec > ul > li > a{
+   font-family: Arial;
+    font-size: 15px;
+}
+.profile-form-edit > form button{
+    font-family: Arial;
+}
+.contact-edit .srch-lctn{
+    font-family: Arial;
+}
+.contact-edit > form button{
+    font-family: Arial;
+}
+.pf-title{
+    font-family: Arial;
+}
+.share-bar  a {
+    float: none;
+    display: inline-block;
+    width: 39px;
+    height: 35px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+    font-family: 'Arial', serif !important;
+}
+.border-title > a {
+    float: right;
+    line-height: 27px;
+    font-family: Arial;
+    font-size: 15px;
+    color: #fb236a;
+}
+.company-img {
+
+    min-width: 180px;
+
+}
+.comp-sec {
+   width: 100%;
+}
+.new-slide{
+    max-height: 800px;
+}
+.new-slide img  {
+
+   height: auto;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-featured-sec{
+    height: 700px;
+}
+.c-logo img{
+    border: 1px solid #4543;
+}
+.reviews img {
+    vertical-align: middle;
+
+    border-radius: 50%;
+}
+.upload-img-bar > span img {
+    float: left;
+    max-width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+.blog-details h3{
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.reviews p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 3;
+    height: 75px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.res-search button
+{
+    top : 0;
+}
+.job-overview ul > li h3 {
+    float: left;
+    width: 100%;
+    font-size: 13px;
+    font-family: Arial;
+    margin: 0;
+}
+.p-category > a span{
+    font-family: Arial;
+}
+.responsive-opensec {
+    width: 100%;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background: #0b1b46;
+    padding: 0 30px;
+    overflow-y: hidden;
+    height: 620px;
+}
+.account-btns{
+    margin-top: 8px;
+}
+.post-job-btn i {
+    margin-top: 5px;
+}
+.responsive-opensec .post-job-btn
+{
+    font-size: 14px;
+    margin-top: 2px;
+
+}
+.heading span{
+    color: black;
+}
+.blog-details p {
+
+    text-align: left;
+}
+.responsivemenu > ul > li > a{
+    font-size: 15px;
+}
+.res-search{
+    height: 9% !important;
+}
+.p-category{
+    border-bottom: 1px solid #e8ecec;
+}
+.p-category > a{
+    border-bottom: none;
+}
+
+.p-category > a span{
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.panel-button :hover  {
+    color: #555555;
+}
+#tencongty{
+    border: none;
+    border-bottom: 2px solid #fb236a;
+    color: black;
+}
+#thoigianlamviec{
+    border: none;
+    border-bottom: 2px solid #fb236a;
+    color: black;
+}
+#mota{
+    border: none;
+    border-bottom: 2px solid #fb236a;
+    color: black;
+}
+#insert-sec{
+    float: left;
+    width: 100%;
+    display: table;
+    margin-bottom: 10px;
+    position: relative;
+}
+position.job-title-sec{
+    text-align: left;
+}
+.job-title-sec {
+    width: 100%;
+    text-align: left;
+}
+.job-lctn i {
+
+    margin-left: 15px;
+}
+header.gradient{
+    background: white;
+    padding-bottom: 2px;
+
+}
+.btns-profiles-sec > ul > li > a i{
+    color: #03ca81;
+}
+.menu-sec nav > ul > li > a {
+
+    color: black;
+}
+.menu-sec  a:hover {
+    color: #61ce70;
+}
+.account-btns > li >a {
+    color: black;
+}
+.account-btns > li >a:hover{
+    color: #03ca81;
+}
+
+.btn-extars .post-job-btn:hover {
+    color: #03ca81;
+}
+.responsive-opensec{
+    background: white;
+}
+.responsive-header{
+    background: white;
+}
+.responsivemenu > ul > li > a:hover{
+    color: #03ca81;
+}
+
+.p-category > a i {
+    color: #2a4f6e;
+}
+.p-category >a p{
+    color: #03ca81;
+}
+.p-category:hover i{
+    color: #03ca81;
+}
+.scroll-to a{
+    color: #03ca81;
+}
+.blog-postdetail > h3 a:hover{
+    color: #03ca81;
+}
+.post-metas > li a.metascomment{
+    color: red;
+}
+.scroll-to:hover a{
+    background: #03ca81;
+}
+.scroll-to:hover {
+    border-color:#03ca81;
+}
+.post-job-btn {
+    background-color:  #03ca81;
+    border: 2px solid #03ca81;
+}
+.btn-extars .post-job-btn:hover{
+    border: 2px solid  #03ca81;
+}
+.job-search form button:hover{
+    background-color:  #03ca81;
+}
+.browse-all-cat a{
+    border-color:  #03ca81;
+    background-color:  #03ca81;
+    color:black;
+}
+.browse-all-cat a:hover{
+    background: white;
+    color: #03ca81;
+}
+.simple-text{
+    background: #03ca81;
+}
+input[type="file"]
+{
+    display: none;
+}
+.fileUpload input.upload
+{
+    display: inline-block;
+}
+.upload::before {
+    content: none;
+    border: 2px solid #e6e7ef;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+
+}
+.account-popup > form > a {
+
+    font-family: Arial;
+}
+.remember-label{
+    font-family: Arial;
+}
+.apply-thisjob .fileUpload .upload{
+
+    margin-top: 10px;
+   text-align: center;
+}
+.extra-job-info > span{
+    font-family: Arial;
+}
+.apply-thisjob-logo .fileUpload-lo .upload-logo{
+
+   color: red;
+}
+#custom-button{
+    padding: 10px;
+    font-family: Arial;
+    color: #8b91dd;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid #8b91dd;
+    float: left;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+}
+#custom-button:hover{
+    background: #8b91dd;
+    color: white;
+}
+.or-browser > a:hover {
+    color: #03ca81;
+    border: 1px solid #03ca81;
+}
+.bg-color, .account-popup > form button,  .pricetable > a, .pricetable.active, .bottom-line.style2 {
+    background-color: #03ca81;
+}
+.job-field i{
+    color: #03ca81;
+}
+.job-search form button  {
+    background-color:  #012d52;
+}
+.new-slide img{
+    opacity: inherit
+}
+.job-search h3{
+    color: #202020;
+}
+.job-search >span {
+    color: #888888;
+}
+.or-browser span  {
+    color:#012d52;
+}
+.or-browser a {
+    color:#012d52;
+    border: 1px solid #012d52;
+}
+.new-slide{
+    background: #9aacc9;
+    height: 100%;
+}
+.simple-text-block a:hover{
+    color: #03ca81;
+}
+.layer.color.light::before {
+    background:#012d52 ;
+}
+.reviews::before {
+    color:#03ca81 ;
+}
+.blog-metas a {
+    color: #03ca81;
+}
+.blog-metas a::before {
+    background-color: #03ca81;
+}
+.blog-details > a {
+    color: #03ca81;
+}
+footer{
+    background: #012d52;
+}
+.bottom-line{
+    background: #001f39;
+}
+ .simple-text:hover{
+    background: white;
+}
+.simple-text:hover h3{
+    color: #03ca81;
+}
+.simple-text:hover span{
+    color: #03ca81;
+}
+.job-listing:hover {
+    border-left-color:#03ca81;
+}
+.layer.color::before{
+    background-color: unset;
+}
+.job-title-sec span {
+    color: #03ca81;
+    margin-top: 7px;
+    max-width:40%;
+}
+
+span.job-lctn{
+    color: #888888;
+}
+.tencongty{
+    color: #03ca81;
+}
+.job-field input{
+    border: 1px solid #C0C0C0;
+}
+.chosen-container-single .chosen-single{
+    border: 1px solid #C0C0C0;
+}
+.job-search{
+    margin-top: 70px;
+}
+#insert-giaithuong{
+    float: left;
+    width: 100%;
+    display: table;
+    margin-bottom: 10px;
+    position: relative;
+}
+#tenkynang{
+    border: none;
+    border-bottom: 2px solid  #fb236a;
+
+    color: black;
+}
+#motakynang{
+    border: none;
+    border-bottom: 2px solid  #fb236a;
+
+    color: black;
+}
+#motagiaithuong{
+    border: none;
+    border-bottom: 2px solid  #fb236a;
+
+    color: black;
+}
+#tengiaithuong{
+    border: none;
+    border-bottom: 2px solid  #fb236a;
+
+    color: black;
+}
+#thoigiannhanthuong{
+    border: none;
+    border-bottom: 2px solid  #fb236a;
+
+    color: black;
+}
+.border-title{
+    border-bottom: none;
+}
+.pagination li.active a, .pagination li a:hover {
+    color: #ffffff;
+    background-color: #03ca81;
+    border-color: #03ca81;
+}
+.alpha-pag a.active, .alpha-pag a:hover {
+    background: #03ca81;
+    color: #ffffff;
+}
+.shortlists > a:hover {
+    background: #03ca81;
+    color: #ffffff;
+}
+.shortlists > a {
+    float: left;
+    font-family: Open Sans;
+    font-size: 13px;
+    color: #03ca81;
+    border: 2px solid #03ca81;
+}
+.emply-btns > a:hover {
+    background: #03ca81;
+    border-color: #03ca81;
+    color: #FFF;
+}
+.profile-form-edit > form button{
+    border: 2px solid #03ca81;
+}
+.contact-edit > form button{
+    border: 2px solid #03ca81;
+    font-family: Arial;
+}
+.emply-btns > a.followus:hover {
+    background: #03ca81;
+    border-color: #03ca81;
+    color: #FFF;
+}
+.extra-login > span{
+    font-family: Arial;
+}
+.job-title-sec h3 a:hover{
+    color: #03ca81;
+}
+.edu-hisinfo > h3{
+    color: #03ca81;
+}
+.change-password form button{
+    border: 2px solid #03ca81;
+}
+.change-password form button:hover{
+   background: #03ca81;
+    color: #FFF;
+}
+.edu-history.style2 > i{
+    border: 2px solid #03ca81;
+}
+.profile-form-edit > form button:hover, .contact-edit > form button:hover{
+    background: #03ca81;
+    color: #FFF;
+}
+.emply-btns > a.followus {
+    background: #FFF;
+    border-color: #03ca81;
+    color: #03ca81;
+}
+.upload-info > a:hover {
+    background: #03ca81;
+    color: #ffffff;
+}
+.upload-info > a{
+    color: #03ca81;
+    border: 2px solid #03ca81;
+}
+.pf-field > i{
+    color: #03ca81;
+}
+.download-cv a {
+
+    background: #ffffff;
+    border: 2px solid #03ca81;
+    color: #03ca81;
+
+}
+.table-list-title h3 a:hover{
+    color:#03ca81 ;
+}
+.tree_widget-sec > ul > li > a:hover i
+{
+    color: #03ca81;
+}
+.tree_widget-sec > ul > li > a:hover{
+    color: #03ca81;
+}
+.tree_widget-sec > ul > li.inner-child.active > a {
+    color: #03ca81;
+}
+.tree_widget-sec > ul > li.inner-child.active > a i {
+    color: #03ca81;
+}
+.download-cv a:hover {
+    color: #ffffff;
+    background: #03ca81;
+}
+.tags-jobs > li span{
+    color: #03ca81;
+}
+.cand-extralink > li:hover a {
+    color: #03ca81;
+    border-color: #03ca81;
+}
+.job-overview ul > li:hover i {
+    color: #fb236a;
+}
+.job-overview ul > li i {
+    color: #03ca81;
+}
+.extra-job-info > span i{
+    color: #03ca81;
+}
+.tags-jobs > li i{
+    color: #03ca81;
+}
+.field_w_search i{
+    color: #03ca81;
+}
+.contact-form > form button
+{
+    background: #03ca81;
+    border: 2px solid #03ca81;
+}
+.quick-form-job form button{
+    background: #03ca81;
+    border: 2px solid #03ca81;
+}
+.quick-form-job form button:hover{
+    background: transparent;
+    border: 2px solid #03ca81;
+    color: #03ca81;
+}
+.apply-thisjob:hover {
+    background: #03ca81;
+    border-color: #03ca81;
+    color: #FFF;
+}
+.apply-thisjob .addfiles{
+    background: #03ca81;
+}
+.apply-thisjob .addfiles:hover{
+    background: #FFF;
+    color: #03ca81;
+}
+.job-is.ft, .job-list-modern .job-is.ft{
+    color: #03ca81;
+    border-color: #03ca81;
+}
+.job-single-info3 > span i{
+    color: #03ca81;
+}
+.emply-pstn{
+    color: #03ca81;
+}
+.action-center > span{
+    border: 2px solid #03ca81;
+    color: #03ca81;
+}
+.refer-info-cv h3 {
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    color: #202020;
+    margin: 0;
+}
+.refer-info-cv span {
+    float: left;
+    width: 100%;
+    font-size: 13px;
+    color: #202020;
+    margin-top: 7px;
+}
+.tuychon{
+    text-align: center;
+    margin-top: 10px;
+}
+.luotxem{
+    text-align: center;
+    margin-top: 10px;
+}
+.ngaydangcv p{
+    text-align: center;
+    margin-top: 15px;
+}
+.contact-cv p{
+    text-align: left;
+}
+.contact-cv h3{
+   text-align: left;
+    margin: 0;
+    font-size: 18px;
+    width: 100%;
+}
+.header.gradient{
+    padding-bottom: 0;
+}
+.menu-sec{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.gallery-wrap .img-big-wrap img {
+    height: 400px;
+    width: 400px;
+    /* width: auto;*/
+    display: inline-block;
+    cursor: zoom-in;
+}
+
+
+.gallery-wrap .img-small-wrap .item-gallery {
+    width: 70px;
+    height: auto;
+    margin: 7px 2px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.gallery-wrap .img-small-wrap {
+    text-align: center;
+}
+.gallery-wrap .img-small-wrap img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    /*cursor: zoom-in;*/
+}
+.price-title{
+    font-weight: 700;
+}
+.price{
+
+    line-height: 31px;
+    text-transform: uppercase;
+    max-height: 66px;
+    overflow: hidden;
+    font-family: 'Open Sans',Arial,sans-serif;
+    font-weight: 700;
+    width: 100%;
+    padding: 0;
+    float: none;
+
+
+}
+.color-price-waanbii{
+    color: #FA3A11;
+}
+.color-box-waanbii{
+    background: #FD6342;
+    color:white;
+}
+
+.fa-beat {
+    animation:fa-beat 5s ease infinite;
+}
+@keyframes fa-beat {
+    0% {
+        transform:scale(1);
+    }
+    5% {
+        transform:scale(1.25);
+    }
+    20% {
+        transform:scale(1);
+    }
+    30% {
+        transform:scale(1);
+    }
+    35% {
+        transform:scale(1.25);
+    }
+    50% {
+        transform:scale(1);
+    }
+    55% {
+        transform:scale(1.25);
+    }
+    70% {
+        transform:scale(1);
+    }
+}
+td img{
+    max-width: 70px;
+}
+.danh-muc li{
+    border-color: black;
+    color: cornflowerblue;
+}
+.danh-muc li:hover{
+    color: green;
+}
+.nav-tabs .nav-link.active{
+    border-color: green;
+
+}
